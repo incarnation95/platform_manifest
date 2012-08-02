@@ -3,6 +3,10 @@ platform_manifest
 
 manifest used for syncing repos.
 
+$ mkdir {your_source_dir}
+
+$ cd {your_source_dir}
+
 $ repo init -u https://github.com/TeamBAMF/platform_manifest.git
 
 $ repo sync
