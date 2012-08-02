@@ -7,7 +7,7 @@ $ repo init -u https://github.com/TeamBAMF/platform_manifest.git
 
 $ repo sync
 
-$ cd vendor/<manufacturer>/<device> (for example: 'cd vendor/samsung/toro')
+$ cd vendor/{manufacturer}/{device} (for example: 'cd vendor/samsung/toro')
 
 $ chmod a+x build-vendor.sh
 
@@ -19,7 +19,7 @@ You should see a bunch of files being pulled off your phone.  If you get a coupl
 
 $ cd ../../../
 
-$ make clean && source build/envsetup.sh && <your lunch command here> && time make -j9 otapackage
+$ make clean && source build/envsetup.sh && {your lunch command here} && time make -j9 otapackage
 
 Lunch commands:
 VZW Nexus - 'lunch bamf_nexus-userdebug'
@@ -29,3 +29,5 @@ Galaxy Nexus 7 - 'lunch bamf_grouper-userdebug'
 
 
 If all goes well, you should have a freshly compiled copy of BAMF Paradigm when you are done.  If you encounter any problems, hit us up on the forums at TeamBAMF.net.  We aren't really supporting unofficial builds, but we'll help where we can. :)
+
+If you want to try to add a new device, please contact one of us via email, the forums, or Twitter.  Thanks!
