@@ -3,6 +3,8 @@
 
   <remote  name="aosp"    
            fetch="https://android-review.googlesource.com/" />
+  <remote  name="github"
+           fetch="git://github.com/" />
   <remote  name="bamf"	    
            fetch="https://github.com/TeamBAMF/" /> 	
   <default revision="refs/tags/android-4.1.2_r1"
